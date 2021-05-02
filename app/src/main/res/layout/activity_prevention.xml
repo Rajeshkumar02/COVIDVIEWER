@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Prevention">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PREVENTION"
+            android:textColor="#000000"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            android:textSize="45dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#000000"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            android:textSize="45dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wear a mask:"
+            android:textColor="#000000"
+            android:textAllCaps="true"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:gravity="left" />
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationView1"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/wearmask" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="○  Everyone 2 years and older should wear masks in public."
+            android:textColor="#aaa"
+            android:textAllCaps="true"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="left" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#000000"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="○  Masks should be worn in addition to staying at least 6 feet apart, especially around people who don’t live with you."
+            android:textColor="#aaa"
+            android:textAllCaps="true"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="left" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#000000"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="○  If someone in your household is infected, people in the household should take precautions including wearing masks to avoid spread to others."
+            android:textColor="#aaa"
+            android:textAllCaps="true"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="left" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#aaa"
+            android:textAllCaps="true"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="left" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="○  Wash your hands or use hand sanitizer before putting on your mask."
+            android:textColor="#aaa"
+            android:textAllCaps="true"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="left" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#aaa"
+            android:textAllCaps="true"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="left" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="○  Wear your mask over your nose and mouth and secure it under your chin."
+            android:textColor="#aaa"
+            android:textAllCaps="true"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="left" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#aaa"
+            android:textAllCaps="true"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="left" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="○  Fit the mask snugly against the sides of your face, slipping the loops over your ears or tying the strings behind your head."
+            android:textColor="#aaa"
+            android:textAllCaps="true"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="left" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#aaa"
+            android:textAllCaps="true"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="left" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="○  If you have to continually adjust your mask, it doesn’t fit properly, and you might need to find a different mask type or brand."
+            android:textColor="#aaa"
+            android:textAllCaps="true"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="left" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#aaa"
+            android:textAllCaps="true"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="left" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="○  Make sure you can breathe easily."
+            android:textColor="#aaa"
+            android:textAllCaps="true"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="left" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#aaa"
+            android:textAllCaps="true"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="left" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stay away:"
+            android:textColor="#000000"
+            android:textAllCaps="true"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:gravity="left" />
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationView2"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/away" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="○  Inside your home: Avoid close contact with people who are sick.
+\n\t-If possible, maintain 6 feet between the person who is sick and other household members.
+\n\n
+○  Outside your home: Put 6 feet of distance between yourself and people who don’t live in your household.
+\n\t-Remember that some people without symptoms may be able to spread virus.
+\n\t-Stay at least 6 feet (about 2 arm lengths) from other people.
+\n\t-Keeping distance from others is especially important for people who are at higher risk of getting very sick."
+            android:textColor="#aaa"
+            android:textAllCaps="true"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:gravity="left" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#aaa"
+            android:textAllCaps="true"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="left" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Get Vaccinated:"
+            android:textColor="#000000"
+            android:textAllCaps="true"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:gravity="left" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationView3"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/inj" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="○  Authorized COVID-19 vaccines can help protect you from COVID-19.\n\n
+○  You should get a COVID-19 vaccine when it is available to you.\n\n
+○  Once you are fully vaccinated, you may be able to start doing some things that you had stopped doing because of the pandemic."
+            android:textColor="#aaa"
+            android:textAllCaps="true"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="left" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#aaa"
+            android:textAllCaps="true"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="left" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wash your often:"
+            android:textColor="#000000"
+            android:textAllCaps="true"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:gravity="left" />
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationView4"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/wash" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="○  Wash your hands often with soap and water for at least 20 seconds especially after you have been in a public place, or after blowing your nose, coughing, or sneezing.
+\n\t•  It’s especially important to wash:
+\n\t•  Before eating or preparing food
+\n\t•  Before touching your face
+\n\t•  After using the restroom
+\n\t•  After leaving a public place
+\n\t•  After blowing your nose, coughing, or sneezing
+\n\t•  After handling your mask
+\n\t•  After changing a diaper
+\n\t•  After caring for someone sick
+\n\t•  After touching animals or pets
+\n\n○  If soap and water are not readily available, use a hand sanitizer that contains at least 60% alcohol. Cover all surfaces of your hands and rub them together until they feel dry.
+\n\n○  Avoid touching your eyes, nose, and mouth with unwashed hands."
+            android:textColor="#aaa"
+            android:textAllCaps="true"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="left" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#aaa"
+            android:textAllCaps="true"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="left" />
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+        <VideoView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/videoView" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#aaa"
+            android:textAllCaps="true"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="left" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Monitor your health daily:"
+            android:textColor="#000000"
+            android:textAllCaps="true"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:gravity="left" />
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationView5"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/helth" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="○  Be alert for symptoms. Watch for fever, cough, shortness of breath, or other symptoms of COVID-19.
+\n\t\t-Especially important if you are running essential errands, going into the office or workplace, and in settings where it may be difficult to keep a physical distance of 6 feet.
+\n○  Take your temperature if symptoms develop.
+\n\t\t-Don’t take your temperature within 30 minutes of exercising or after taking medications that could lower your temperature, like acetaminophen.
+\n○  Follow CDC guidance if symptoms develop."
+            android:textColor="#aaa"
+            android:textAllCaps="true"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:gravity="left" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#aaa"
+            android:textAllCaps="true"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="left" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Symptoms:"
+            android:textColor="#000000"
+            android:textAllCaps="true"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:gravity="left" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#aaa"
+            android:textAllCaps="true"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:gravity="left" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <VideoView
+                android:id="@+id/videoView1"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+        </FrameLayout>
+    </LinearLayout>
+
+</ScrollView>

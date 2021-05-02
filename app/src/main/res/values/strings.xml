@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Data Pirate\'s</string>
+    <string name="prevention">android.res://com.example.datapirates/</string>
+</resources>
